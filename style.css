@@ -16,6 +16,8 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: auto;
+  width: 90%;
 }
 
 
@@ -28,6 +30,7 @@ header {
   background-color: white;
   border: none;
   padding-left: 120px;
+  
 }
 
  
@@ -95,6 +98,7 @@ h1{
     justify-content: space-between;
     margin: auto;
     padding-top: 10%;
+    padding-left: 180px;
 }
 
 .button_add_laern button{
@@ -107,6 +111,7 @@ h1{
  display: flex;
  justify-content: space-between;
  padding-top: 100px;
+ 
     
 }
 
@@ -146,6 +151,7 @@ h1{
 .information_clients{
     display: flex;
    flex-wrap: wrap;
+  
  
    
 }
@@ -203,9 +209,163 @@ h1{
    
 }
 
-.line_franchises img{
+.line_clients img{
     position: absolute;
    margin-top: -20px;
    padding-left: 90px;
 
+}
+
+.our_goal{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 180px;
+}
+
+
+
+.info_delivery h3{
+    font-size: 49px;
+    font-weight: 600;
+    font-style: normal;
+    color: #0A1902;
+    width: 60%;
+}  
+
+.info_delivery p {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #bcbdbb; 
+    width: 65%;
+}
+
+    
+.delivery{
+  
+    padding-right: 220px;
+}
+
+.delivery_mesag{
+    padding-left: 100px;
+   margin-top: -120px;
+}
+
+.delivery_mesag h4{
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #0A1902;
+
+}
+
+
+.delivery_mesag p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #bcbdbb; 
+
+}
+
+.fruit{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: auto;
+  
+   
+    
+}
+
+
+.fruit img{
+    margin: 40px;
+}
+
+
+.fruit_add{
+    width: 362px;
+    height: 572px;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+
+.fruit_add p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #bcbdbb; 
+
+}
+
+
+.fruit_add h4{
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #0A1902;
+
+}
+
+.add_to_cart{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.subscription{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 360px;
+    padding-left: 140px;
+    padding-top: 100px;
+   
+}
+
+.subscription_message p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #bcbdbb; 
+    width: 53%;
+    margin-top: -30px;
+
+}
+
+.subscription_message h3{
+    font-size: 49px;
+    font-weight: 700;
+    font-style: normal;
+    color: #0A1902;
+
+}
+
+
+.input button{
+    align-items: center;
+    background-color: white;
+    border: none;
+    padding-top: 25px;
+    
+}
+
+.input input{
+    width: 258px;
+    height: 59px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #bcbdbb; 
+    
+}
+
+.input{
+    display: flex;
+    align-items: center;
 }
