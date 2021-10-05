@@ -369,3 +369,71 @@ h1{
     display: flex;
     align-items: center;
 }
+
+.contact_footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.line_footer{
+   padding-top: 50px;
+    padding-left: 180px;
+    padding-bottom: 100px;
+}
+
+.contact_footer h4{
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    color: #0A1902; 
+    
+
+
+}
+
+
+.logo_footer p{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #bcbdbb; 
+    width: 39%;
+
+}
+
+.company ul{
+    list-style: none;
+}
+
+.news ul{
+    list-style: none;
+}
+
+
+.company button{
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #bcbdbb; 
+  
+}
+
+
+
+.news button{
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #bcbdbb; 
+  
+}
+
+.socials img{
+    padding-right: 35px;
+}
